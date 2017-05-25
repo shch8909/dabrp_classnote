@@ -1,12 +1,13 @@
 ---
-title: "Untitled"
+title: "한글 제목은 어떻게 되는"
 author: "박찬엽"
 date: "2017년 5월 25일"
 output: 
   word_document:
-    reference_docx: style.docx
+    reference_docx: style2.docx
 ---
 
+<!-- reference_docx 에 내가 원하는 스타일의 워드파일을 저장한 제목을 적어주면, 해당 워드 파일의 스타일대로 작성된다.  -->
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
